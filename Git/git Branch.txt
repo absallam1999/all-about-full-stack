@@ -1,0 +1,7 @@
+git branch				=> to list all branches
+git branch [newBranchName]		=> to create new branch
+git branch -d [BranchName]		=> to save delete branch
+git branch -D [BranchName]		=> to force delete branch
+git branch -m [BranchNewName]		=> to rename branch
+git checkout [BranchName]		=> to switch to branch
+git checkout -b [BranchName]		=> to create anew branch & switched to

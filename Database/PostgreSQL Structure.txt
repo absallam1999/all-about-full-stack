@@ -1,0 +1,75 @@
+// ===== Create new Database in Postgres ===== //
+
+1) psql postgres				connect to postgreSQL
+2) CREATE DATABASE new_database;		create new database named (new_database)
+3) \c						connect to this database created above
+4) CREATE TABLE cities				create table in database called (cities)
+
+
+// ===== Create Table in Database ===== //
+
+
+5) CREATE TABLE cities (id SERIAL PRIMARY KEY, name VARCHAR(100), description text, individuals integer, sighting_date date);
+
+   ==> create tabe in database that contain 4 colums with specific types which is: 
+	- VARCHAR for String
+	- text for long text
+	- integer for numbers
+	- date to applay date into string '2022-01-01'
+
+
+// ===== CRUD Operations in postgres ===== //
+
+1) CREATE
+	==>INSERT INTO cities () VALUES ();
+	-- Make Sure to insert values in same orders
+	-- (1, 2, 3) VALUES (1, 2, 3)
+
+2) READ
+	==>SELECT * FROM cities
+	-- To Get All Table (cities) Values
+
+3) UPDATE
+	==>UPDATE cities SET individuals=8 WHERE id=1;
+	-- will update the value of individuals to 8 in row with id 1
+
+4) DELETE
+	==>DELETE cities WHERE id=1;
+	-- Will Delete the Whole Row in Table
+
+
+// ===== SQL Filter ===== //
+
+1) WHERE (Filters using Conditions)
+`DELETE FROM cities WHERE id=1;`
+
+==> Will Delete the row with id 1 from cities
+	-- insted of id we can use (name or any thing else in the row)
+
+
+2) LIMIT (Limits the number of responses)
+`SELECT * FROM cities LIMIT 5;`
+
+==> Will return amaximum of 5 responses from this SQL Query
+
+
+3) BETWEEN (Selects the values between 2 responses)
+`SELECT name FROM cities WHERE sighting_date BETWEEN '2021-01-01 AND 2021-01-31';`
+
+==> Will only return name of cities seen in january 2021
+
+
+4) LIKE (identifies content that matches based on patterns)
+`SELECT name, description FROM cities WHERE name LIKE '%egy%';`
+
+==> Will Return all name values that contain 'egy'
+
+
+5) IS NULL or IS NOT NULL (Checks if value is null or not)
+`SELECT name, description FROM cities WHERE sighting_date IS NULL;`
+
+==> Will Return the name and id of cities without a sighting_date
+
+`SELECT name, id FROM cities WHERE individuals IS NOT NULL;`
+
+==> Will Return the name and id of cities with a value in the individuals column

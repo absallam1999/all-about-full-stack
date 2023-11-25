@@ -1,0 +1,63 @@
+			============              ============
+				   [String Methods]
+			============		  ============
+
+LEFT(String, Length)
+MID(String, Postition, Length)
+RIGHT(String, Length)
+
+-----------------------------------------
+LENGTH(String)
+CHAR_LENGTH(Srting) == CHARACTER_LENGTH(String)
+
+-----------------------------------------
+LCASE(String) == LOWER(String)
+UCASE(String) == UPPER(String)
+
+-----------------------------------------
+REPEAT(String, RepeatNumber)
+REPLACE(String, FROM, TO)
+REVERSE(String)
+
+-----------------------------------------
+CONCAT(String, String, String)
+CONCAT_WS(Separator, String, String)
+
+-----------------------------------------
+INSERT(String, Position, Length, New String)
+
+-----------------------------------------
+TRIM(Leading | Trailing | Both [Default], RemoveString [' ' Default], FROM string)
+LTRIM(String)
+RTRIM(String)
+
+-----------------------------------------
+LPAD(String, Length, PaddedString)
+RPAD(String, Length, PaddedString)
+
+
+
+			============               ============
+				   [Numeric Methods]	
+			============		   ============
+
+CEIL(Number)						تقريب للأكبر
+FLOOR(Number)						تقريب للأصغر
+ROUND(Number, Decimal)					تقريب لاقرب عدد
+
+-----------------------------------------
+TRUNCATE(Number, Decimal) 				تقريب بدون تقريب
+POW(Number, Powerd) == POWER(Number, Powered)		الاس
+MOD(Number, Mod)					باقى القسمة
+
+
+
+			============            ============
+				   [Date Methods]				
+			============		============
+
+CURTIME() == CURRENT_TIME() == CURRENT_TIME 		HH:MM:SS
+
+CURDATE() == CURRENT_DATE() == CURRENT_DATE		YYYY-MM-DD
+
+NOW() == CURRENT_TIME_STAMP() == CURRENT_TIME_STAMP	Current Date&Time

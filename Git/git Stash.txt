@@ -1,0 +1,9 @@
+git stash				=> to stash files from working space
+git stash list				=> to list all stashed files
+git stash pop				=> to revert files from stash
+git stash save 'fileName'		=> to save files with custome names
+git stash apply				=> to copy files from stash
+git stash pop stash@{index}		=> to revent one file from stash with index
+git stash drop stash@{index}		=> to delete one file from stash with index
+git stash show				=> to descripe files from stash
+git stash clear				=> to clear all stash

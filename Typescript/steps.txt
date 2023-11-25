@@ -1,0 +1,7 @@
+ [1] - Install Nodejs
+ [2] - By Nodejs its Installed "Check from Terminal" node -v
+ [3] - Install Typescript (npm i typescript)
+ [4] - Be Typescript its installed "Check from Terminal" tsc -v
+ [5] - Create TS File
+ [6] - Compile TS File to JS File
+ [7] - Check TS Playground

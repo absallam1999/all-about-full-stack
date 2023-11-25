@@ -1,0 +1,3 @@
+** to delete commit first you should change branch head then use commit hash by [git log]
+git reset -- hard [commit hash]			=> to change branch head
+git push origin [branchName] --force		=> to push last head ot branch

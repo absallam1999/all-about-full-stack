@@ -1,0 +1,3 @@
+git restore --staged [fileName]		=> to restore file from stage area
+git clean -n				=> to list all files to delete
+git clean -f				=> to delete all files 

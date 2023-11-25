@@ -1,0 +1,48 @@
+================ PostgreSQL ==========================
+
+Dealing With Database :=
+## Create & Drop Database
+1. Create DataBase => CREATE DATABASE database_name;
+2. Drop DataBase => DROP DATABASE database_name;
+
+Dealing with Tables :=
+## Create & Drop Table
+after Connect with the database (\c to Connect)
+1. CREATE TABLE table_name(COLUMN1 DATATYPE, COULUMN2 DATATYPE);			=> to Create new Table
+2. DROP TABLE table_name;								=> to Drop Table
+## Modify & Change columns
+1. ALTER TABLE table_name ALTER COLUMN column_name new_DataType;			=> to Change Column DataType
+2. ALTER TABLE table_name ALTER COLUMN column_name RENAME TO new_column_name;		=> to Change Column Name
+3. ALTER TABLE table_name ADD column_name column_DataType;				=> to Add new Column
+4. ALTER TABLR table_name DROP column_name;						=> to Drop column
+
+
+Dealing with Columns :=
+=> to insert into coulmns
+INSERT INTO table_name (column1, column2)VALUES(value1, value2) ;
+
+=> to Get all from columns
+SELECT * FROM table_name;
+
+=> to Update columns
+UPDATE table_name SET column1=value1, column2=value2;
+
+=> to Delete column
+DELETE FROM table_name WHERE column=record;
+
+POSTGRES Commands :=
+
+ psql -U postgres 	to Login as postgres user
+ \l 			to list all databases
+ \c database_name	to Connect with database
+ \dt			to list all tables in Database
+ \d table_name		to describe table
+ \du			to list all users
+ \du user_name		to list user information
+ \q			to Exit psql
+
+
+Queries Filtring :=
+1.LIKE
+2.LIMIT
+3.WHERE

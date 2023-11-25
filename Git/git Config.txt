@@ -1,0 +1,6 @@
+git help config							=> to list all config
+git config -l					  		=> to list all config
+git config --global [configToShow]		  		=> to Get config 
+git config --global [configToShow] "[newConfigEntry]"		=> to Set config
+git config --global --unset [configToDelete]			=> to Delete config
+git config --global --edit					=> to Open config in IDE

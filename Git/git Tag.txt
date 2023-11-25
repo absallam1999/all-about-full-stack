@@ -1,0 +1,12 @@
+git tag					=> to list all tags in branch
+git tag -l "v1.*"			=> to list all v1 tags
+git tag [tagName]			=> to create new tag
+git push origin [tagName]		=> to push new tage to branch
+
+================================ OR ==============================
+
+git tag -a [tagName] -m [tagMessage]	=> to create new tag with new message
+
+-- Deleting Tag
+git tag -d [tagName]			=> to delete tag
+git push origin --delete [tagName]	=> to delete tag

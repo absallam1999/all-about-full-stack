@@ -1,0 +1,9 @@
+git clone [repoLink.git]			  		=> to copy repo in your local workspace
+git add   [filename || *]			  		=> to add files to stage
+git branch					  		=> to list all branches
+git remote -v					  		=> to list all remotes name
+git status					  		=> to check files
+git reset head	[filename]			  		=> to reset changes
+git commit -m ''				  		=> to commit files into repo
+git push [remotename(origin), branchname(master)] 		=> to push files to repo
+git pull [remotename(origin)]			  		=> to pull changes into your local workspace [fetch rempterepo and meirge to your local repo]

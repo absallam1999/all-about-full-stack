@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> New Document</title>
+        <style>
+            body{
+                font-family:'Cairo' ; 
+                background-color:#DDD;
+            }
+
+            div{
+                margin:50px auto;
+                text-align:center;
+            }
+
+            h1{
+                width:500px;
+                margin:50px auto;
+                color:#FFF;
+                background-color:rgba(37, 49, 216, 0.801);
+                transition: all 0.3s ease-in-out;
+            }
+
+            h1:hover{
+                transform:translateY(10px);
+                width:10em;
+            }
+
+            input{
+                display:block;
+                margin:50px auto;
+                width:300px;
+                border-radius:10px;
+                font-size:20px;
+                padding:15px;
+                color:#757575;
+                border: 2px dashed #EEE;
+                background-color:#DDD;
+                transition:all 0.5s ease-in-out;
+            }
+
+            input:hover{
+                outline:none;
+            }
+
+            p{
+                margin-top:40px;
+                font-weight:300;
+                font-size:16px;
+                line-height:2px;
+            }
+            p mark{
+                background-color:rgba(41, 54, 235, 0.829);
+                color:#FFF;
+            }
+
+            .footer{
+                font-size:14px;
+                font-weight:300;
+                color:#757575;
+                margin:10px;
+                padding:5px 10px;
+                position:absolute;
+                bottom:0;
+                left:0;
+                transition:all 0.5s ease-in-out;
+            }
+
+            @media(max-width:767px){
+                h1{
+                    width:auto;
+                }
+
+                h1:hover{
+                transform:none;
+                }
+
+                input:hover{
+                    transform:none;
+                    width:300px;
+                }
+
+                #input-field{
+                    margin-top:150px;
+                }
+                .footer{
+                    width:auto;
+                    background-color:rgba(37, 49, 216, 0.801);
+                    color:#FFF;
+                    position:absolute;
+                    bottom:0;
+                    left:0;
+                    right:0;
+                }
+                .footer:hover{
+                    background-color:#DDD;
+                    color:#757575;
+                    font-size:14px;
+                    letter-spacing:2px;
+                }
+            }
+        </style>
+    </head>
+    <body dir="rtl">
+        <div>
+            <h1> أحسب عمرك بـ الأيام  ... </h1>
+            <input type="text" id="input-field" placeholder="أكتب عمرك هنا ..">
+            <input type="text" id="result" placeholder="أحسب عمرك هنا ..">
+            <p><mark>- صلى على محمد - </mark></p>
+        </div>
+        <div class="footer">
+             All Rights Reserved &copy; Absallam 2022 
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

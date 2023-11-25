@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m ''
+git remote add origin [repoLink]
+git push -u origin master

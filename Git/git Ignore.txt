@@ -1,0 +1,8 @@
+.gitignore				=> file to ignore files and folders from pushing
+
+some gitignore patterns
+
+*.log		=> to ignore all .log files
+!vip.log	=> to not ignore this file
+node_modules	=> to ignore this folder
+text.txt	=> to ignore this spacific file 
