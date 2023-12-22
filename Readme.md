@@ -1,4 +1,4 @@
-# Tutorial in Javascript
+# Notes in Full-Stack Web Development with Javascript
 # By: [Absallam](https://github.com/MohamedAbsallam)
 
 ## js-core: [Playlist Link](https://www.youtube.com/watch?v=eKuNnpWhm7c&list=PLDoPjvoNmBAw6p0z0Ek0OjPzeXoqlFlCh&pp=iAQB)
