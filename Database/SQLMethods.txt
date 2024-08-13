@@ -47,7 +47,7 @@ ROUND(Number, Decimal)					تقريب لاقرب عدد
 
 -----------------------------------------
 TRUNCATE(Number, Decimal) 				تقريب بدون تقريب
-POW(Number, Powerd) == POWER(Number, Powered)		الاس
+POW(Number, Powerd) == POWER(Number, Powered)		القوة
 MOD(Number, Mod)					باقى القسمة
 
 
