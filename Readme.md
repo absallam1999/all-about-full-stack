@@ -1,5 +1,5 @@
 # Notes in Full-Stack Web Development with Javascript
-# By: [Absallam](https://github.com/MohamedAbsallam)
+# By: [Absallam](https://github.com/absallam1999)
 
 ## js-core: [Playlist Link](https://www.youtube.com/watch?v=eKuNnpWhm7c&list=PLDoPjvoNmBAw6p0z0Ek0OjPzeXoqlFlCh&pp=iAQB)
 ## js-dom: [Playlist Link](https://www.youtube.com/watch?v=LlQC9sU0coM&list=PLDoPjvoNmBAxx97QDMOCpzxbu1ZHJ4i7i&pp=iAQB)
