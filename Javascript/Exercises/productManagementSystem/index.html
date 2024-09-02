@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> New Html Document </title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="crud">
+            <!-- Start Header -->
+            <div class="head">
+                <h2> Crud </h2>
+                <p> Product Mangement System</p>
+            </div>
+            <!-- End Header -->
+
+            <!-- Start Inputs-->
+            <div class="inputs">
+                <input id="title" type="text" placeholder="Title">
+                <div class="price">
+                    <input onkeyup="getTotal()"  id="price" type="number" placeholder="Price">
+                    <input onkeyup="getTotal()"  id="tax" type="number" placeholder="TAX">
+                    <input onkeyup="getTotal()"  id="ads" type="number" placeholder="ADS">
+                    <input onkeyup="getTotal()"  id="discount" type="number" placeholder="Discount">
+                    <span id="total"></span>
+                </div>
+                <input id="count" type="number" placeholder="Count">
+                <input id="category" type="text" placeholder="Category">
+                <button id="button">Create</button>
+            </div>
+            <!-- End Inputs -->
+
+            <!-- Start Outputs-->
+            <div class="outputs">
+                <div class="search">
+                    <input onkeyup="searchData(this.value)" id="search" type="text" placeholder="Search">
+                    <div class="btnSearch">
+                        <button onclick="getSearchMood(this.id)" id="searchTitle"> Search By Title </button>
+                        <button onclick="getSearchMood(this.id)" id="searchCategory"> Search By Category </button>
+                    </div>
+                </div>
+                <div id="deleteAll"></div>
+                <!-- Start Table -->
+                <table>
+                    <tr>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>price</th>
+                        <th>taxes</th>
+                        <th>ads</th>
+                        <th>discount</th>
+                        <th>Total</th>
+                        <th>category</th>
+                        <th>update</th>
+                        <th>delete</th>
+                    </tr>
+                    <tbody id="tbody"></tbody>
+                </table>
+                <!-- End Table -->
+                <div id="searchFailed"></div>
+
+            </div>
+            <!-- End Outputs -->
+
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
