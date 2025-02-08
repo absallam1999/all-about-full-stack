@@ -34,7 +34,7 @@ let blocksContainer = document.querySelector('.memory-game-blocks');
 // Create Array From Game Blocks
 let blocks = Array.from(blocksContainer.children);
 
-// Create Range Of Keys
+// Create Range of Keys
 //let orderRange = [...Array(blocks.length).keys()];    // or 👇👇
 let orderRange = Array.from(Array(blocks.length).keys())
 
