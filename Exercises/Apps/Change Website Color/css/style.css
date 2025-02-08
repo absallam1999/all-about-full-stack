@@ -1,0 +1,94 @@
+*
+{
+    box-sizing:border-box;
+}
+body
+{
+    font-family:Cairo;
+    font-size:18px;
+}
+.container
+{
+    margin: 20px auto;
+    width:1200px;
+}
+.container .color-switcher
+{
+    list-style:none;
+    margin-bottom:20px;
+    text-align:center;
+}
+.container .color-switcher li
+{
+    width:20px;
+    height:20px;
+    cursor:pointer;
+    display:inline-block;
+}
+.container .color-switcher li:first-child
+{
+    background-color:#c0392b;
+}
+.container .color-switcher li:nth-child(2)
+{
+    background-color:#16a085;
+}
+.container .color-switcher li:nth-child(3)
+{
+    background-color:#8e44ad;
+}
+.container .color-switcher li:last-child
+{
+    background-color:#2c3e50;
+}
+.container h3
+{
+    color:#c0392b;
+}
+.container p
+{
+    background-color:#c0392b;
+    padding:20px;
+    color:#FFF;
+}
+.red .container h3
+{
+    color:#c0392b;
+}
+.red .container p
+{
+    background-color:#c0392b;
+    padding:20px;
+    color:#FFF;
+}
+
+.green .container h3
+{
+    color:#16a085;
+}
+.green .container p
+{
+    background-color:#16a085;
+    padding:20px;
+    color:#FFF;
+}
+.purple .container h3
+{
+    color:#8e44ad;
+}
+.purple .container p
+{
+    background-color:#8e44ad;
+    padding:20px;
+    color:#FFF;
+}
+.black .container h3
+{
+    color:#2c3e50;
+}
+.black .container p
+{
+    background-color:#2c3e50;
+    padding:20px;
+    color:#FFF;
+}
