@@ -1,0 +1,73 @@
+/* 
+
+    Animation ShortHand: (Default Values)
+
+                 [ Animation-nama: none ]
+                 [ Animation-duration: 0s ]
+                 [ Animation-timing-function: ease ]
+                 [ Animation-delay: 0s ]
+                 [ Animation-iteration-count: 1 ]
+                 [ Animation-direction: normal ]
+                 [ Animation-fill-mode: none ]
+                 [ Animation-play-state: running ]
+
+    animation : none 0 ease 0 1 normal none running;
+
+*/
+
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+::selection{
+    background-color:#333;
+    color:#FFF;
+}
+
+.loading{
+    width:200px;
+    height:50px;
+    margin:20px auto;
+    position:relative;
+
+}
+.loading span{
+    display:block;
+    position:absolute;
+    bottom:0;
+    height:20px;
+    width:20px;
+    background-color:#00F;
+    border-radius:50%;
+    animation:snake 1.5s infinite ease-in-out;
+}
+.loading span:nth-of-type(2){
+    left:20px;
+    animation-delay: .2s
+}
+.loading span:nth-of-type(3){
+    left:40px;
+    animation-delay: .4s
+}
+.loading span:nth-of-type(4){
+    left:60px;
+    animation-delay: .6s
+}
+.loading span:last-of-type{
+    left:80px;
+    animation-delay: .8s
+}
+
+@keyframes snake {
+    0%, 100%{
+        transform:translateY(0);
+        box-shadow: 0 0 3px rgba(0, 0, 0, .1)
+    }
+    50% {
+        opacity:1;
+        transform:translateY(-10px);
+        background-color:lightblue;
+        box-shadow: 0 20px 3px rgba( 0, 0, 0, .05);
+    }
+}
