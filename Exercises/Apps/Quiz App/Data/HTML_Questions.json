@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Why We Use <br> Element",
+        "answer_1": "To Make Text Bold",
+        "answer_2": "To Make Text Italic",
+        "answer_3": "To Make Breakline",
+        "answer_4": "TO Make Horizontal Line",
+        "right_answer": "To Make Breakline"
+    },
+    {
+        "title": "Is <img> Element Has Attribute href",
+        "answer_1": "Yes",
+        "answer_2": "No, Its For Anchor Tag <a>",
+        "answer_3": "All Elements Has This Attribute",
+        "answer_4": "Answer 1 and 3 are Right",
+        "right_answer": "No, Its For Anchor Tag <a>"
+    },
+    {
+        "title": "How Can We Make Text Bold",
+        "answer_1": "Putting it inside <b> Tag",
+        "answer_2": "Putting it inside <strong> Tag",
+        "answer_3": "Customize it with Font-Weight Property In CSS",
+        "answer_4": "All Answers are Right",
+        "right_answer": "All Answers are Right"
+    },
+    {
+        "title": "Why We Use <br> Element",
+        "answer_1": "To Make Text Bold",
+        "answer_2": "To Make Text Italic",
+        "answer_3": "To Make Breakline",
+        "answer_4": "TO Make Horizontal Line",
+        "right_answer": "To Make Breakline"
+    },
+    {
+        "title": "How Can We Make Text Bold",
+        "answer_1": "Putting it inside <b> Tag",
+        "answer_2": "Putting it inside <strong> Tag",
+        "answer_3": "Customize it with Font-Weight Property In CSS",
+        "answer_4": "All Answers are Right",
+        "right_answer": "All Answers are Right"
+    },
+    {
+        "title": "Is <img> Element Has Attribute href",
+        "answer_1": "Yes",
+        "answer_2": "No, Its For Anchor Tag <a>",
+        "answer_3": "All Elements Has This Attribute",
+        "answer_4": "Answer 1 and 3 are Right",
+        "right_answer": "No, Its For Anchor Tag <a>"
+    },
+    {
+        "title": "How Can We Make Text Bold",
+        "answer_1": "Putting it inside <b> Tag",
+        "answer_2": "Putting it inside <strong> Tag",
+        "answer_3": "Customize it with Font-Weight Property In CSS",
+        "answer_4": "All Answers are Right",
+        "right_answer": "All Answers are Right"
+    },
+    {
+        "title": "Why We Use <br> Element",
+        "answer_1": "To Make Text Bold",
+        "answer_2": "To Make Text Italic",
+        "answer_3": "To Make Breakline",
+        "answer_4": "TO Make Horizontal Line",
+        "right_answer": "To Make Breakline"
+    },
+    {
+        "title": "Is <img> Element Has Attribute href",
+        "answer_1": "Yes",
+        "answer_2": "No, Its For Anchor Tag <a>",
+        "answer_3": "All Elements Has This Attribute",
+        "answer_4": "Answer 1 and 3 are Right",
+        "right_answer": "No, Its For Anchor Tag <a>"
+    }
+]
