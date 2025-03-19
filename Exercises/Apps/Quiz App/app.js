@@ -44,7 +44,7 @@ function getQuestions() {
                 clearInterval(countdownInterval);
                 countdown(150, questionsCount);
                 // Show Results
-                showResults(questionsCount);
+                currentIndex === questionsCount ? showResults(questionsCount) : null;
             };
         }
     };
